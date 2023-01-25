@@ -14,7 +14,7 @@
     width: 60px;
     height: 60px;
     padding: 10px;
-    border: 1px solid black;
+    border: 1px solid white;
 }
 
 .Refresh {
@@ -23,19 +23,17 @@
     border: none;
     height: 30px;
     border-radius: 15px;
-    background-color: rgb(66,66,66);
+    background-color: rgb(43, 43, 43);
     color: white;
 }
 
 .Refresh:hover{
-    color: black;
     transition-duration: 100ms;
-    background-color: white;
-    border: 1px solid black;
+    background-color: rgb(66,66,66);
 }
 
 .Win {
-    color: red;
+    color: rgb(255, 70, 70);
 }
 
 #confetti {
