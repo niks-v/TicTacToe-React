@@ -1,0 +1,48 @@
+.TicTacToe {
+    font-size: 30px;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.TicTacToe table {
+    border-collapse: collapse;
+    margin: 10px;
+}
+
+.TicTacToe td {
+    width: 60px;
+    height: 60px;
+    padding: 10px;
+    border: 1px solid black;
+}
+
+.Refresh {
+    width: 183px;
+    cursor: pointer;
+    border: none;
+    height: 30px;
+    border-radius: 15px;
+    background-color: rgb(66,66,66);
+    color: white;
+}
+
+.Refresh:hover{
+    color: black;
+    transition-duration: 100ms;
+    background-color: white;
+    border: 1px solid black;
+}
+
+.Win {
+    color: red;
+}
+
+#confetti {
+    height: 90vh;
+    width: 90vw;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: -2;
+}

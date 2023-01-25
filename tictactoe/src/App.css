@@ -1,0 +1,44 @@
+.App {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  overflow: none;
+}
+
+.LivelyText1:hover{
+  color: red;
+  font-family: Consolas;
+}
+.LivelyText2:hover{
+  color: green;
+  font-family: Impact;
+}
+.LivelyText3:hover{
+  color: blue;
+  font-family: 'Lucinda Sans';
+}
+.LivelyText4:hover{
+  color: yellow;
+  font-family: Arial;
+}
+.LivelyText5:hover{
+  color: gray;
+  font-family: Tahoma;
+}
+.LivelyText6:hover{
+  color: purple;
+  font-family: Georgia;
+}
+.LivelyText7:hover{
+  color: orangered;
+  font-family: 'Trebuchet MS';
+}
+.LivelyText8:hover{
+  color: tan;
+  font-family: 'Times New Roman';
+}
+.LivelyText9:hover{
+  color: violet;
+  font-family: Garamond;
+}

@@ -1,0 +1,8 @@
+.Square {
+    cursor: pointer;
+    transition-duration: 100ms;
+}
+
+.Square:hover {
+    background-color: rgb(243, 243, 243);
+}
